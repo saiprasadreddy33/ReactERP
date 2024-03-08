@@ -1,0 +1,77 @@
+/* LandingPage.css */
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #E0E0E0, #F5F5F5);
+    color: #333333;
+    padding: 2rem;
+    position: relative;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .description {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center; /* Align buttons to center */
+  }
+  
+  .button {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 1.5rem 20rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button:hover {
+    background-color: #0d47a1;
+    transform: translateY(-5px);
+  }
+  
+  .extra-options {
+    margin-top: 4rem;
+    font-size: 1.5rem;
+  }
+  
+  .extra-options button {
+    font-size: 1.2rem;
+    border: none;
+    background: none;
+    color: #2196F3;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .extra-options button:hover {
+    color: #0d47a1;
+  }
+  
+  .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  
